@@ -25,6 +25,7 @@ public class ByteBuddyMockMakerTest {
 		assertTrue(interfaces.stream().anyMatch(clazz -> "Map".equals(clazz.getSimpleName())));
 		assertTrue(interfaces.stream().anyMatch(clazz -> "List".equals(clazz.getSimpleName())));
 		assertTrue(interfaces.stream().anyMatch(clazz -> "MockAccess".equals(clazz.getSimpleName())));
+
 	}
 
 }
